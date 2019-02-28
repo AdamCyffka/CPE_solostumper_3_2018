@@ -2,7 +2,7 @@
 
 ![alt text](https://forthebadge.com/images/badges/made-with-c.svg)
 ---
-FIZZBUZZ
+FUZZBOZZ
 ---
 For this project, the only authorized function is write, atoi, printf.
 
@@ -10,11 +10,11 @@ Write a program that takes two numbers as parameters and prints all the integers
 
 * the second parameter must be greater than or equal as the first one,
 
-* if the number is a multiple of 2, print "Fozz\n",
+* if the number is a multiple of 3, print "Fuzz\n",
 
-* if the number is a multiple of 9, print "Bazz\n",
+* if the number is a multiple of 2, print "Bozz\n",
 
-* if the number is a multiple of both 2 and 9, print "FozzBazz\n",
+* if the number is a multiple of both 2 and 3, print "FuzzBozz\n",
 
 * in all other case, print the number followed by '\n'.
 
@@ -22,24 +22,24 @@ USE :
 
 `make`
 
-`./fozzbazz nb1 nb2`
+`./fuzzbozz nb1 nb2`
 
 EXAMPLES:
 ```
-$> ./fozzbazz 9 18 | cat -e
-Bazz$
-Fozz$
+$> ./fuzzbozz 9 18 | cat -e
+Bozz$
+Fuzz$
 11$
-Fozz$
+Fuzz$
 13$
-Fozz$
+Fuzz$
 15$
-Fozz$
+Fuzz$
 17$
-FozzBazz$
-$> ./fozzbazz 2 1 &>/dev/null || echo "Exit status: $?"
+FuzzBozz$
+$> ./fuzzbozz 2 1 &>/dev/null || echo "Exit status: $?"
 Error: the second parameter must be greater than the first one.
 Exit status: 84
-$> ./fozzbazz &>/dev/null || echo "Exit status: $?"
+$> ./fuzzbozz &>/dev/null || echo "Exit status: $?"
 Exit status: 84
 ```
