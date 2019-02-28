@@ -1,6 +1,7 @@
 # CPE_solostumper_3_2018
 
-![alt text](https://forthebadge.com/images/badges/made-with-c.svg)
+![alt text](https://forthebadge.com/images/badges/made-with-c.svg) 
+![alt text](https://forthebadge.com/images/badges/built-with-love.svg)
 ---
 FUZZBOZZ
 ---
