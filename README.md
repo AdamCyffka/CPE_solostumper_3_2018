@@ -2,9 +2,9 @@
 
 ![alt text](https://forthebadge.com/images/badges/made-with-c.svg) 
 ![alt text](https://forthebadge.com/images/badges/built-with-love.svg)
----
-FUZZBOZZ
----
+
+## FUZZBOZZ
+
 For this project, the only authorized function is write, atoi, printf.
 
 Write a program that takes two numbers as parameters and prints all the integers between these two numbers according to the following rules:
@@ -19,13 +19,13 @@ Write a program that takes two numbers as parameters and prints all the integers
 
 * in all other case, print the number followed by '\n'.
 
-USAGE :
+## USAGE
 
-`make`
+1) `make`
 
-`./fuzzbozz nb1 nb2`
+2) `./fuzzbozz nb1 nb2`
 
-EXAMPLES:
+## EXAMPLES
 ```
 $> ./fuzzbozz 9 18 | cat -e
 Bozz$
