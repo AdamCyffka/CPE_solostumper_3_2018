@@ -19,7 +19,7 @@ Write a program that takes two numbers as parameters and prints all the integers
 
 * in all other case, print the number followed by '\n'.
 
-USE :
+USAGE :
 
 `make`
 
