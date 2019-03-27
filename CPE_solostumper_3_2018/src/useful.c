@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** useful
+** fuzzbozz
 ** File description:
 ** useful functions
 */
