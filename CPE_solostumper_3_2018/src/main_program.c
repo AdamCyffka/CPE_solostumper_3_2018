@@ -35,7 +35,7 @@ int start(int from, int to)
 
     while (i != to + 1) {
         check_core(i);
-        i = i + 1;
+        ++i;
     }
     return (0);
 }
