@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** program.c
+** fuzzbozz
 ** File description:
 ** functions for main program
 */  
